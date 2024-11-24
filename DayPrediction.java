@@ -10,10 +10,8 @@ public class DayPrediction
             sc.nextLine();
             System.out.println("Enter Birth Month: ");
             String month = sc.nextLine();
-
             System.out.print("Enter Birth Year: ");
             int year = sc.nextInt();
-
             get_day(date, month, year);
 
         }
